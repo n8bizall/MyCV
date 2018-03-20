@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { DatabindComponent } from './databind/databind.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DatabindComponent
   ],
   imports: [
     BrowserModule
